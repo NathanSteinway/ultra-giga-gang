@@ -15,8 +15,8 @@ function About() {
                 <p>This is just the beginning.</p>
             </dive>
             
-            <div className='flex mx-auto w-1/4 h-1/4 pt-5'>
-                <img src={Me} className='object-scale-down' style={{ width: "100%" }} alt="cover" />
+            <div className='flex mx-auto w-1/4 h-1/4 pt-5 '>
+                <img src={Me} className='rounded-full object-scale-down' style={{ width: "100%" }} alt="cover" />
             </div>
 
             <div className='flex-wrap pt-5'>
