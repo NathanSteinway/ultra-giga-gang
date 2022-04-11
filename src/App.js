@@ -6,12 +6,7 @@ function App() {
   return (
     <div>
         <Nav></Nav>
-        {/*Home*/}
         <About></About>
-        {/*Skills*/}
-        {/*Work*/}
-        {/*Contact*/}
-        {/*Footer*/}
     </div>
   );
 }
