@@ -15,7 +15,7 @@ import Sequelize from '../assets/Skills Images/sequelize.png';
 function Skills() {
     return(
         
-        <div className='w-full h-screen bg-[#261A2B] text-white-300'>
+        <div className='w-full h-screen bg-[#F9F5F5] text-white-300'>
             <div className='max-w-[1000px] py-10 text-center mx-auto flex-col w-full h-full'>
                 <div>
                     <p className='text-4xl mx-auto inline border-b-4 border-white-300'>Skills</p>

@@ -5,7 +5,7 @@ import Weather from '../assets/Work Images/weather.jpg';
 
 function Work(){
     return(
-        <div className='max-w-[1000px] mx-auto justify-center text-center w-full h-full'>
+        <div className='max-w-[1000px] h-[400px] mx-auto justify-center text-center'>
             <div className='p-5'>
                 <p className='text-4xl mx-auto inline border-b-4 border-white-300'>Work</p>
             </div>
