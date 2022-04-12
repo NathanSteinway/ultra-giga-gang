@@ -1,5 +1,7 @@
 import React from 'react';
-import Placeholder from '../assets/me.jpg';
+import Ecommerce from '../assets/Work Images/Ecommerce.jpg';
+import Social from '../assets/Work Images/social.jpg';
+import Weather from '../assets/Work Images/weather.jpg';
 
 function Work(){
     return(
@@ -13,19 +15,19 @@ function Work(){
                 {/* First Card */}
                 <Card
                 title='Social Network API'
-                img={Placeholder}
+                img={Social}
                 />
 
                 {/* Second Card */}
                 <Card
                 title='E-Commerce Backend'
-                img={Placeholder}
+                img={Ecommerce}
                 />
 
                 {/* Third Card */}
                 <Card
                 title='Weather Tracker'
-                img={Placeholder}
+                img={Weather}
                 />
             </div>
         </div>
@@ -37,7 +39,7 @@ function Card(props){
       <div className='card px-5'>
         <div className='card-body'>
           <h2 className='card-title'>{props.title}</h2>
-          <img src={props.img} alt=''/>
+          <img className='' src={props.img}  alt=''/>
         </div>
       </div>
     )
