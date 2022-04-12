@@ -3,7 +3,7 @@ import {FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer className="w-full h-[200px] flex-col items-center justify-between px-6 py-4 bg-[#F9F5F5] sm:flex-row">
+        <footer className="w-full h-[200px] flex-col items-center justify-between px-6 py-4 bg-[#261A2B] sm:flex-row">
 
                 <div class="flex col-sm justify-center pt-10">
 
