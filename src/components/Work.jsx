@@ -2,6 +2,9 @@ import React from 'react';
 import Ecommerce from '../assets/Work Images/Ecommerce.jpg';
 import Social from '../assets/Work Images/social.jpg';
 import Weather from '../assets/Work Images/weather.jpg';
+import Notes from '../assets/Work Images/notes.jpg';
+import Run from '../assets/Work Images/run.jpg';
+import Talk from '../assets/Work Images/talk.png';
 
 function Work(){
     return(
@@ -33,19 +36,20 @@ function Work(){
                 {/* Four Card */}
                 <Card
                 title='Chop-It-Up'
-                img={Weather}
+                img={Talk}
                 />
 
                 {/* Five Card */}
                 <Card
-                title='Run-Buddy'
-                img={Weather}
+                title='Code Quiz'
+                img={Run}
+                link='https://github.com/NathanSteinway/SMU_Challenge_4_Quiz'
                 />
 
                 {/* Sixth Card */}
                 <Card
                 title='Note Taker'
-                img={Weather}
+                img={Notes}
                 />
             </div>
         </div>
@@ -59,6 +63,9 @@ function Card(props){
           <h2 className='card-title'>{props.title}</h2>
           <img className='' src={props.img}  alt=''/>
         </div>
+        <a href={'' + props.link}>
+          <button className='text-center rounded-lg'>Demo</button>
+        </a>
       </div>
     )
   }
