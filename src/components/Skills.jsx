@@ -16,12 +16,12 @@ function Skills() {
     return(
         
         <div className='w-full h-screen bg-[#F9F5F5] text-white-300'>
-            <div className='max-w-[1000px] py-10 text-center mx-auto flex-col w-full h-full'>
+            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center text-center w-full h-full'>
                 <div>
                     <p className='text-4xl mx-auto inline border-b-4 border-white-300'>Skills</p>
                 </div>
                 {/* Container for Skills images*/}
-                <div className='w-full py-20 grid grid-cols-3 gap-5 text-center'>
+                <div className='w-full h-screen py-10 grid grid-cols-3 gap-5 text-center'>
                     <div>
                         <img className='w-20 mx-auto' src={HTML} alt="HTML Logo" />
                     </div>
@@ -58,9 +58,6 @@ function Skills() {
                     <div>
                         <img className='w-20 mx-auto' src={Sequelize} alt='Sequelize Logo' />
                     </div>
-                </div>
-                <div className='mx-auto justify-center'>
-                    and more to come...
                 </div>
             </div>
 

@@ -5,7 +5,7 @@ function About() {
 
     return(
 
-        <div className='w-full h-full mx-auto px-8 flex flex-col text-center justify-center h-full'>
+        <div id='about' className='w-full h-full mx-auto px-8 flex flex-col text-center justify-center h-full'>
 
             <div className='py-5'>
                 <h1 className='text-5xl'>NATHAN STEINWAY</h1>
