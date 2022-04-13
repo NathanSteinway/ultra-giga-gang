@@ -19,24 +19,28 @@ function Work(){
                 <Card
                 title='Social Network API'
                 img={Social}
+                link='https://github.com/NathanSteinway/SMU_Challenge18_SocialNetworkAPI'
                 />
 
                 {/* Second Card */}
                 <Card
                 title='E-Commerce Backend'
                 img={Ecommerce}
+                link='https://github.com/NathanSteinway/SMU_Challenge_13_EcommerceBackend'
                 />
 
                 {/* Third Card */}
                 <Card
                 title='Weather Tracker'
                 img={Weather}
+                link='https://github.com/NathanSteinway/silver-umbrella'
                 />
 
                 {/* Four Card */}
                 <Card
                 title='Chop-It-Up'
                 img={Talk}
+                link='https://github.com/ragil1114/Chop-IT-Up'
                 />
 
                 {/* Five Card */}
@@ -50,6 +54,7 @@ function Work(){
                 <Card
                 title='Note Taker'
                 img={Notes}
+                link='https://github.com/NathanSteinway/SMU_Challenge_11_noteTaker'
                 />
             </div>
         </div>
@@ -61,11 +66,10 @@ function Card(props){
       <div className='card px-5'>
         <div className='card-body'>
           <h2 className='card-title'>{props.title}</h2>
-          <img className='' src={props.img}  alt=''/>
+          <a href={'' + props.link}>
+            <button className='text-center rounded-lg'><img className='' src={props.img}  alt=''/></button>
+          </a>
         </div>
-        <a href={'' + props.link}>
-          <button className='text-center rounded-lg'>Demo</button>
-        </a>
       </div>
     )
   }
