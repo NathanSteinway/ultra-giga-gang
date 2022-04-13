@@ -8,7 +8,7 @@ function Contact(){
                     <p className='text-4xl mx-auto inline border-b-4 border-white-300'>Contact Me!</p>
                 </div>
                 <input className='bg-[#261A2B] p-2' type="text" placeholder='Name' name='name' required/>
-                <input className='my-5 p-2 bg-[#261A2B]' type="email" placeholder='Email' name='email' required/>
+                <input pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" className='my-5 p-2 bg-[#261A2B]' type="email" placeholder='Email' name='email' required/>
                 <textarea className='bg-[#261A2B] p-2' name="message" rows="5" placeholder='Message' required></textarea>
                 <button className='bg-[#261A2B] px-5 py-3 my-8 mx-auto flex items-center'>Submit</button>
             </form>
