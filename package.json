@@ -12,6 +12,7 @@
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
     "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -19,8 +20,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+=======
+    "deploy": "npm run build&&gh-pages -d build"
+>>>>>>> ca36f28d461414d77917fca7df335c5adb34f08f
   },
   "eslintConfig": {
     "extends": [
