@@ -39,21 +39,21 @@ function Nav() {
                     className={
                         !nav
                             ? 'hidden'
-                            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+                            : 'absolute top-0 left-0 w-full h-screen bg-[#3EB489] flex flex-col justify-center items-center'
                     }
                 >
                     <li>
-                        <Link to="about" smooth={true} duration={200}>
+                        <Link onClick={handleClick} to="about" smooth={true} duration={200}>
                             About Me
                         </Link>
                     </li>
                     <li>
-                        <Link to='portfolio' smooth={true} duration={200}>
+                        <Link onClick={handleClick} to='portfolio' smooth={true} duration={200}>
                             Portfolio
                         </Link>
                     </li>
                     <li>
-                        <Link to='contact' smooth={true} duration={200}>
+                        <Link onClick={handleClick} to='contact' smooth={true} duration={200}>
                            Contact 
                         </Link>
                     </li>

@@ -1,5 +1,6 @@
 {
   "name": "react-portfolio",
+  "homepage": "https://NathanSteinway.github.io/ultra-giga-gang",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://NathanSteinway.github.io/ultra-giga-gang",
@@ -21,11 +22,16 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
 =======
     "deploy": "npm run build&&gh-pages -d build"
 >>>>>>> ca36f28d461414d77917fca7df335c5adb34f08f
+=======
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+>>>>>>> main
   },
   "eslintConfig": {
     "extends": [

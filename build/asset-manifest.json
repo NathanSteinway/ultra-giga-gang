@@ -1,11 +1,23 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/ultra-giga-gang/static/css/main.7a8074d9.css",
     "main.js": "/ultra-giga-gang/static/js/main.dbe686dc.js",
     "static/js/787.a2cb61a6.chunk.js": "/ultra-giga-gang/static/js/787.a2cb61a6.chunk.js",
     "static/media/Ecommerce.jpg": "/ultra-giga-gang/static/media/Ecommerce.b3d5f8590203383c1910.jpg",
     "static/media/weather.jpg": "/ultra-giga-gang/static/media/weather.586657692350773a1ec7.jpg",
     "static/media/social.jpg": "/ultra-giga-gang/static/media/social.2548da44dd1ffe1810fa.jpg",
+=======
+    "main.css": "/ultra-giga-gang/static/css/main.9d30db47.css",
+    "main.js": "/ultra-giga-gang/static/js/main.71524aa2.js",
+    "static/js/787.a2cb61a6.chunk.js": "/ultra-giga-gang/static/js/787.a2cb61a6.chunk.js",
+    "static/media/run.jpg": "/ultra-giga-gang/static/media/run.4c2715f16de52b75b069.jpg",
+    "static/media/notes.jpg": "/ultra-giga-gang/static/media/notes.af7b35341d83c7349d24.jpg",
+    "static/media/Ecommerce.jpg": "/ultra-giga-gang/static/media/Ecommerce.b3d5f8590203383c1910.jpg",
+    "static/media/weather.jpg": "/ultra-giga-gang/static/media/weather.586657692350773a1ec7.jpg",
+    "static/media/social.jpg": "/ultra-giga-gang/static/media/social.2548da44dd1ffe1810fa.jpg",
+    "static/media/talk.png": "/ultra-giga-gang/static/media/talk.e911928acb32740364e1.png",
+>>>>>>> main
     "static/media/react.png": "/ultra-giga-gang/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/ultra-giga-gang/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/me.jpg": "/ultra-giga-gang/static/media/me.8ee449a033b5c3ae543e.jpg",
@@ -16,6 +28,7 @@
     "static/media/sequelize.png": "/ultra-giga-gang/static/media/sequelize.0f3ff142c482fe079486.png",
     "static/media/javascript.png": "/ultra-giga-gang/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/ultra-giga-gang/index.html",
+<<<<<<< HEAD
     "main.7a8074d9.css.map": "/ultra-giga-gang/static/css/main.7a8074d9.css.map",
     "main.dbe686dc.js.map": "/ultra-giga-gang/static/js/main.dbe686dc.js.map",
     "787.a2cb61a6.chunk.js.map": "/ultra-giga-gang/static/js/787.a2cb61a6.chunk.js.map"
@@ -23,5 +36,14 @@
   "entrypoints": [
     "static/css/main.7a8074d9.css",
     "static/js/main.dbe686dc.js"
+=======
+    "main.9d30db47.css.map": "/ultra-giga-gang/static/css/main.9d30db47.css.map",
+    "main.71524aa2.js.map": "/ultra-giga-gang/static/js/main.71524aa2.js.map",
+    "787.a2cb61a6.chunk.js.map": "/ultra-giga-gang/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d30db47.css",
+    "static/js/main.71524aa2.js"
+>>>>>>> main
   ]
 }
