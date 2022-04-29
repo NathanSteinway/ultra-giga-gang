@@ -45,9 +45,9 @@ function Work(){
 
                 {/* Five Card */}
                 <Card
-                title='Code Quiz'
+                title='Interactive MERN SPA Project'
                 img={Run}
-                link='https://github.com/NathanSteinway/SMU_Challenge_4_Quiz'
+                link='https://github.com/BurnsD/HuntressHandcraftedSoap'
                 />
 
                 {/* Sixth Card */}
