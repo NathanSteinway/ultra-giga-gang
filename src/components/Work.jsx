@@ -45,7 +45,7 @@ function Work(){
 
                 {/* Five Card */}
                 <Card
-                title='Interactive MERN SPA project'
+                title='Interactive MERN SPA Project'
                 img={Run}
                 link='https://github.com/BurnsD/HuntressHandcraftedSoap'
                 />
